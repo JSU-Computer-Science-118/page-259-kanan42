@@ -24,20 +24,7 @@ int main()
 
 	}
 
-		
-	else if (d == 0) {
-		double root = (-b + discriminant) / (2 * a);
-		cout << "The single root is "<< root;
-	}
 	
-	 
-	else if (d > 0) {
-		double root1 = (-b + discriminant) / (2 * a);
-		double root2 = (-b + discriminant) / (2 * a);
-		cout << "-First root" << root1<<endl;
-		cout << "-Second root" << root2;
-
-	}
 	
 
 	return 0;
