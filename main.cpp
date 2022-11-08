@@ -1,5 +1,7 @@
+
 #include <iostream>
 #include <cmath>
+#include<iomanip>
 
 using namespace std;
 
@@ -11,7 +13,9 @@ int main()
     double discriminant;
 
     cin >> a >> b >> c;
-    
+
+    cout << fixed << showpoint << setprecision(2);
+
     discriminant = pow(b, 2) - (4 * a * c);
     root1 = (-b + sqrt(discriminant)) / (2 * a);
     root2 = (-b - sqrt(discriminant)) / (2 * a);
