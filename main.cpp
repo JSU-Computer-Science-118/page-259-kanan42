@@ -34,7 +34,7 @@ int main()
 	else if (d > 0) {
 		double root1 = (-b + discriminant) / (2 * a);
 		double root2 = (-b + discriminant) / (2 * a);
-		cout << "-First root" << root1;
+		cout << "-First root" << root1<<endl;
 		cout << "-Second root" << root2;
 
 	}
