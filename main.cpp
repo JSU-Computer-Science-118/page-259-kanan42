@@ -10,6 +10,9 @@ int main()
 	double c;
 	double d;
 	double discriminant;
+	double root;
+	double root 1;
+	double root 2;
 	cout << "Enter the value of a :" << endl;
 	cin >> a;
 	cout << "Enter the value of b:" << endl;
@@ -27,14 +30,14 @@ int main()
 
 		
 	else if (d == 0) {
-		double root = (-b + discriminant) / (2 * a);
+		 root = (-b + discriminant) / (2 * a);
 		cout << "Single root" <<" root: "<< root;
 	}
 	
 	 
 	else if (d > 0) {
-		double root1 = (-b + discriminant) /(2*a)
-		double root2 = (-b - discriminant) / (2 * a);
+		 root1 = (-b + discriminant) /(2*a)
+		root2 = (-b - discriminant) / (2 * a);
 		cout << "Two real roots";
 		cout <<  " root 1 :"
 			<< root1 << ", " << "root 2 :" << root2 << endl;
