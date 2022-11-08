@@ -15,22 +15,22 @@ int main()
 	discriminant = pow(d, 0.5);                                                      
 
 	if (d < 0) {
-		cout << "The equation has two complex roots." << endl;
+		cout << " two complex roots" << endl;
 
 	}
 
 		
 	else if (d == 0) {
 		double root = (-b + discriminant) / (2 * a);
-		cout << "The equation has a single repeated root." <<" root: "<< root;
+		cout << "Single root" <<" root: "<< root;
 	}
 	
 	 
 	else if (d > 0) {
 		double root1 = (-b + discriminant) /(2*a)
 		double root2 = (-b - discriminant) / (2 * a);
-		cout << "The equation has different roots .";
-		cout << "The roots are:" << " root 1 :"
+		cout << "Two real roots";
+		cout <<  " root 1 :"
 			<< root1 << ", " << "root 2 :" << root2 << endl;
 
 	}
