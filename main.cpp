@@ -26,20 +26,11 @@ int main()
 		
 	else if (d == 0) {
 		double root = (-b + discriminant) / (2 * a);
-		cout << "The equation has a single repeated root." <<" root: "<< root;
+		cout << "The equation has a single repeated root." <<"  root: "<< root;
 	}
 	
 	 
-	else if (d > 0) {
-		double root1 = (-b + discriminant) /(2*a)
-		double root2 = (-b - discriminant) / (2 * a);
-		cout << "The equation has different roots .";
-		cout << "The roots are:" << " root 1 :"
-			<< root1 << ", " << "root 2 :" << root2 << endl;
-
-	}
 	
-
 	return 0;
 
 
