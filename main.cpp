@@ -19,7 +19,7 @@ int main()
                                                                                             
 
 	if (d < 0) {
-		cout << "The equation has two complex roots." << endl;
+		cout << "Complex roots" << endl;
 
 	}
 
