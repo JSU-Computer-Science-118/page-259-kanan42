@@ -10,8 +10,9 @@ int main()
 	double discriminant;
 	double root1;
 	double root2;
-	cout << "Enter the value of a,b, c:" << endl;
+	
 	cin >> a >> b >> c;
+	
 	discriminant = pow(b, 2) - 4 * a * c;
 	root1 = (-b + sqrt(discriminant)) / (2 * a);
 	root2 = (-b + sqrt(discriminant)) / (2 * a);
