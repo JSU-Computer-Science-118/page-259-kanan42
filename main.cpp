@@ -30,8 +30,7 @@ int main()
     }
     
     else if (discriminant < 0){
-        cout << "Complex roots\n" << root1 << endl;
-    }
+        cout << "Complex roots";
     
     return 0;
     
