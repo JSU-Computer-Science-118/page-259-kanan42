@@ -8,8 +8,8 @@ using namespace std;
 int main()
 {
     double a,b,c;
-    int root1;
-    int root2;
+    double root1;
+    double root2;
     double discriminant;
    
     cin >> a>>b>>c;
@@ -17,6 +17,7 @@ int main()
     discriminant = pow(b,2) - (4 * a * c);
     root1 = (-b + sqrt(discriminant))/(2 * a);
     root2 = (-b - sqrt(discriminant))/(2 * a);
+    if (a=0)
     
     if (discriminant == 0){
         cout << "The single root is "<< root1<<endl;
@@ -24,8 +25,8 @@ int main()
     
     else if(discriminant > 0){
         cout << "Two real roots\n";
-        cout <<"- First root" << root1 << "\n";
-        cout <<"- Second root"<< root2 << "\n";
+        cout <<"- First root " << root1 << "\n";
+        cout <<"- Second root "<< root2;
     }
     
     else if (discriminant < 0){
