@@ -1,3 +1,4 @@
+//Hannah Coleman J00963674 
 #include<iostream>
 #include<cmath>
 using namespace std;
@@ -10,7 +11,7 @@ int main()
 	double discriminant;
 	double root1;
 	double root2;
-	
+	cout<<"Enter the value of a,b,c"<<endl;
 	cin >> a >> b >> c;
 	
 	discriminant = pow(b, 2) - 4 * a * c;
@@ -22,8 +23,8 @@ int main()
 	}
 	else if (discriminant > 0) {
 		cout << "Two real roots\n";
-		cout << "-First root " << root1 << endl;
-		cout << "-Second root " << root2 << endl;
+		cout << "-First root " << root1 <<"\n";
+		cout << "-Second root " << root2 <<"\n";
 
 	}
 	else if (discriminant > 0) {
