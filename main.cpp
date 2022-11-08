@@ -14,8 +14,8 @@ int main()
 	cin >> b;
 	cout << "Enter the value of c:" << endl;
 	cin >> c;
-	d = pow(b, 2) - 4 * a * c;
-	discriminant = pow(d, 0.5);
+	d = pow(b, 2) - (4 * a * c);
+	discriminant = sqrt(d);
                                                                                               
 
 	if (d < 0) {
