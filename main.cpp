@@ -3,34 +3,46 @@
 using namespace std;
 int main()
 {
-	double a;
-	double b;
-	double c;
-	double d;
-	double discriminant;
-	
-	cin >> a>> b>> c;
+	double a, b, c, d, disc;
+	cout << "Enter the value of a :" << endl;
+	cin >> a;
+	cout << "Enter the value of b:" << endl;
+	cin >> b;
+	cout << "Enter the value of c:" << endl;
+	cin >> c;
 	d = pow(b, 2) - 4 * a * c;
-	discriminant = pow(d, 0.5);
-                                                                                              
+                                                            
 
 	if (d < 0) {
-		cout << "Complex root" << endl;
+		cout << "The equation has two complex roots." << endl;
 
 	}
+	else {
+		disc = pow(d, 0.5);
+	}
+	
+	if (d == 0) {
+	
+		cout << "The equation has a single repeated root."
+			<< (-b + disc) / (2 * a) << endl;
 
-		
-	else if (d == 0) {
-		double root = (-b + discriminant) / (2 * a);
-		cout << "The single root is "<< root;
 	}
 	
 	 
-	else if (d > 0) {
-		double root1 = (-b + discriminant) / (2 * a);
-		double root2 = (-b - discriminant) / (2 * a);
-		cout << "Two real roots" << endl;
-		cout << "-First root " << root1 << endl;
-		cout << "-Second root " << root2;
-
+	else  {
+		
+		cout << "The equation has different roots .";
+		cout << "The roots 1"
+			<< (-b + disc) / (2 * a)
+			<<"and root 2"
+			<< (-b - disc) / (2 * a);
 	}
+	
+
+	return 0;
+
+
+
+
+
+}
