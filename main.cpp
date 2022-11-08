@@ -23,6 +23,9 @@ int main()
         cout << "The single root is "<< root1<<endl;
     }
     
+    else if (a==0){
+        cout<<"Invalid entry";
+    }
     else if(discriminant > 0){
         cout << "Two real roots\n";
         cout <<"- First root " << root1 << "\n";
