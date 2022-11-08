@@ -19,13 +19,13 @@ int main()
     root2 = (-b - sqrt(discriminant))/(2 * a);
     
     if (discriminant == 0){
-        cout << "The single root is"<<root1<<endl;
+        cout << "The single root is"<< " "<< root1<<endl;
     }
     
     else if(discriminant > 0){
         cout << "Two real roots\n";
-        cout <<"- First root " << root1 << "\n";
-        cout << "- Second root "<< root2 << "\n";
+        cout <<"- First root" << " "<< root1 << "\n";
+        cout << "- Second roo"<<" "<< root2 << "\n";
     }
     
     else if (discriminant < 0){
